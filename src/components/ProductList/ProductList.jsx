@@ -4,9 +4,9 @@ import ProductItem from '../ProductItem/ProductItem';
 import { useTelegram } from '../../hooks/useTelegram';
 
 const products = [
-    {id: '1', title: 'Средство-1', description: 'Описание средства-1'},
-    {id: '2', title: 'Средство-2', description: 'Описание средства-2'},
-    {id: '3', title: 'Средство-3', description: 'Описание средства-3'}
+    {id: '1', title: 'Средство-1', price: 1000, description: 'Описание средства-1'},
+    {id: '2', title: 'Средство-2', price: 2000,  description: 'Описание средства-2'},
+    {id: '3', title: 'Средство-3', price: 3000, description: 'Описание средства-3'}
 ]
 
 const getTotalPrice = (items) => {
